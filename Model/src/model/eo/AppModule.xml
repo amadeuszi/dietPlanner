@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="AppModule"
+  Version="12.2.1.22.48"
+  InheritPersonalization="merge"
+  ClearCacheOnRollback="true">
+  <ViewUsage
+    Name="IngredientView1"
+    ViewObjectName="model.vo.IngredientView"/>
+  <ViewUsage
+    Name="RecipeComponentView1"
+    ViewObjectName="model.vo.RecipeComponentView"/>
+  <ViewUsage
+    Name="RecipeView1"
+    ViewObjectName="model.vo.RecipeView"/>
+</AppModule>
